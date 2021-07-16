@@ -18,7 +18,7 @@ namespace AisInterviewTask
                 {
                     obj.ReadFilesFromLocalStorage();
                 } 
-            } 
+            }
             catch(FileNotExistsInLocalStorageException ex)
             {
                 Console.WriteLine(ex.Message);
